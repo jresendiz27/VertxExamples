@@ -19,4 +19,8 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.18'
     compile 'org.codehaus.groovy:groovy-all:2.4.5'
     testCompile 'junit:junit:4.12'
+    // Vert.x core dependencie
+    compile 'io.vertx:vertx-core:3.3.3'
+    compile "io.vertx:vertx-lang-groovy:3.3.3"
+    compile "io.vertx:vertx-lang-js:3.3.3"
 }
