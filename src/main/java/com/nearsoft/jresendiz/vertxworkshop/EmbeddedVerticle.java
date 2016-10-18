@@ -10,6 +10,5 @@ public class EmbeddedVerticle {
         Vertx vertx = Vertx.vertx();
         vertx.deployVerticle("com.nearsoft.jresendiz.vertxworkshop.HelloWorldVerticle");
         vertx.deployVerticle("groovy:com.nearsoft.jresendiz.vertxworkshop.HelloWorldVerticleGroovy");
-        vertx.deployVerticle("HelloWorldVerticle.js");
     }
 }
