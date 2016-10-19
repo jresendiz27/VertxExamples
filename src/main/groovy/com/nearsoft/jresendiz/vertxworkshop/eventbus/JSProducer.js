@@ -5,4 +5,4 @@ var eventBus = vertx.eventBus();
 vertx.setPeriodic(500, function (value) {
     eventBus.send("HelloWorldChannel", "Hello World from JS Producer");
 });
-vertx.deployVerticle("./JSConsumer.js");
+// vertx.deployVerticle("./JSConsumer.js");
