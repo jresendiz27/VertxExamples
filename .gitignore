@@ -17,3 +17,4 @@ gradle-app.setting
 *.iml
 *.ipr
 *.iws
+webroot/node_modules
