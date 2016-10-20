@@ -33,6 +33,7 @@ dependencies {
     // Vertx distributed, web and containers
     compile "io.vertx:vertx-hazelcast:${version}"
     compile "io.vertx:vertx-web:${version}"
+    compile "io.vertx:vertx-mongo-client:${version}"
 }
 // Fat jar support
 mainClassName = 'com.nearsoft.jresendiz.vertxworkshop.EmbeddedVerticle'
