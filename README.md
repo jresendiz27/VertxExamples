@@ -2,7 +2,7 @@
 ------
 ### Slides and resourcs
 
-All the slides and resources can be found at [my personal page](http://jresendiz27.github.io/slides)
+All the slides and resources can be found at [my personal page](http://jresendiz27.github.io/resources/Vert.x.pdf)
 
 ------
 
@@ -29,6 +29,15 @@ _Consider using the gradle wrapper_
 Run gradle _clean tasks_ to resolve dependencies and show all the related tasks.
 ```bash
 ./gradlew clean tasks
+```
+Many of the examples are going to be executed using the vertx client. This can be installed using sdk
+```bash
+sdk install vertx
+```
+
+To run an example you just need
+```bash
+vertx run MyVerticle.js
 ```
 
 #### Step2: Consider switch branches.
